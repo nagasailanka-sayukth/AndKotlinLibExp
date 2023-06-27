@@ -42,11 +42,11 @@ android {
     }
 
 
-    java {
-        toolchain {
-            languageVersion = JavaLanguageVersion.of(1.8)        // << --- ADD This
-        }
-    }
+//    java {
+//        toolchain {
+//            languageVersion = JavaLanguageVersion.of(17)        // << --- ADD This
+//        }
+//    }
 
 
     java {

@@ -80,18 +80,18 @@ dependencies {
 
 
 // 5. Publishing:
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'com.github.nagasailanka-sayukth'
-            artifactId = 'AndKotlinLibExp'
-            version = "1.0"
-            pom {
-                description = 'DESCRIPTION'
-            }
-        }
-    }
-    repositories {               // << --- ADD This
-        mavenLocal()
-    }
-}
+//publishing {
+//    publications {
+//        maven(MavenPublication) {
+//            groupId = 'com.github.nagasailanka-sayukth'
+//            artifactId = 'AndKotlinLibExp'
+//            version = "1.2"
+//            pom {
+//                description = 'DESCRIPTION'
+//            }
+//        }
+//    }
+//    repositories {               // << --- ADD This
+//        mavenLocal()
+//    }
+//}
